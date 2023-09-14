@@ -1,0 +1,12 @@
+1
+sort after args: 1
+Traceback (most recent call last):
+  File "/home/russjmc/Playground/Python/netconfig/netParse.py", line 135, in <module>
+    main()
+  File "/home/russjmc/Playground/Python/netconfig/netParse.py", line 129, in main
+    data_display(dataDict)
+  File "/home/russjmc/Playground/Python/netconfig/netParse.py", line 113, in data_display
+    thdList=(sorted(thdList, key = lambda x: x[args.sort]))
+  File "/home/russjmc/Playground/Python/netconfig/netParse.py", line 113, in <lambda>
+    thdList=(sorted(thdList, key = lambda x: x[args.sort]))
+NameError: name 'args' is not defined
